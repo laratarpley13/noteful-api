@@ -74,7 +74,7 @@ notesRouter
             id: res.note.id,
             name: xss(res.note.name),
             modified: res.note.modified,
-            folderId: res.note.folderId,
+            folderId: res.note.folderid,
             content: xss(res.note.content),
         })
     })
